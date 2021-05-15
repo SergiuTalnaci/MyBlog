@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET on AWS Serverless on .NET</title>
+    <link>https://sergiutalnaci.github.io/tags/.net/</link>
+    <description>Recent content in .NET on AWS Serverless on .NET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 May 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://sergiutalnaci.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/posts/my-first-post/</guid>
+      <description>Whom is this blog for? AWS with dotnet using C# This blog is the about the life of a full stack software engineer experienced with dotnet and Angular, currently working with dotnet on AWS infrastructure at one of the largest toy companies in the world.
+   Who am I? Software Engineer I studied software engineering since 2010 and have been working in the field since 2012 (student job). My first software engineering job on the SAP tech stack writing ABAP.</description>
+    </item>
+    
+  </channel>
+</rss>
