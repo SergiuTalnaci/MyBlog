@@ -6,11 +6,21 @@
     <description>Recent content in Posts on AWS Serverless on .NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Present live camera feed in PowerPoint slides over Teams or Zoom</title>
+      <link>https://sergiutalnaci.github.io/posts/live-camera-feed-in-powerpoint-slides/</link>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/posts/live-camera-feed-in-powerpoint-slides/</guid>
+      <description>STREAM Camera in PowerPoint Necessary software to install  OBS Obs websocket server Powerpoint OBS scene switcher  OBS Install OBS from here: Obs download link
+OBS websocket server For websocket server, you can find the file by scrolling all the way down, Install OBS websocket server plugin from here: Obs websocket server github releases. Download the installer that matches your OS, or unzip the contents of the ZIP file into the folder where you installed OBS (C:\OBSINSTALLPATH\obsstudio).</description>
+    </item>
+    
     <item>
       <title>Hello World</title>
       <link>https://sergiutalnaci.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
       
       <guid>https://sergiutalnaci.github.io/posts/my-first-post/</guid>
       <description>Whom is this blog for? AWS with dotnet using C# This blog is the about the life of a full stack software engineer experienced with dotnet and Angular, currently working with dotnet on AWS infrastructure at one of the largest toy companies in the world.

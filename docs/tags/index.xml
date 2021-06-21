@@ -6,47 +6,47 @@
     <description>Recent content in Tags on AWS Serverless on .NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Jun 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>.NET</title>
-      <link>https://sergiutalnaci.github.io/tags/.net/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <title>OBS</title>
+      <link>https://sergiutalnaci.github.io/tags/obs/</link>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
-      <guid>https://sergiutalnaci.github.io/tags/.net/</guid>
+      <guid>https://sergiutalnaci.github.io/tags/obs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>AWS</title>
-      <link>https://sergiutalnaci.github.io/tags/aws/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <title>OnlineMeetings</title>
+      <link>https://sergiutalnaci.github.io/tags/onlinemeetings/</link>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
-      <guid>https://sergiutalnaci.github.io/tags/aws/</guid>
+      <guid>https://sergiutalnaci.github.io/tags/onlinemeetings/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>C#</title>
-      <link>https://sergiutalnaci.github.io/tags/c#/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <title>OnlineTalks</title>
+      <link>https://sergiutalnaci.github.io/tags/onlinetalks/</link>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
-      <guid>https://sergiutalnaci.github.io/tags/c#/</guid>
+      <guid>https://sergiutalnaci.github.io/tags/onlinetalks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>dotnet</title>
-      <link>https://sergiutalnaci.github.io/tags/dotnet/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <title>PowerPoint</title>
+      <link>https://sergiutalnaci.github.io/tags/powerpoint/</link>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
-      <guid>https://sergiutalnaci.github.io/tags/dotnet/</guid>
+      <guid>https://sergiutalnaci.github.io/tags/powerpoint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
       <link>https://sergiutalnaci.github.io/tags/software/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
       <guid>https://sergiutalnaci.github.io/tags/software/</guid>
       <description></description>
@@ -55,9 +55,45 @@
     <item>
       <title>software engineering</title>
       <link>https://sergiutalnaci.github.io/tags/software-engineering/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <pubDate>Sat, 19 Jun 2021 20:00:50 +0200</pubDate>
       
       <guid>https://sergiutalnaci.github.io/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.NET</title>
+      <link>https://sergiutalnaci.github.io/tags/.net/</link>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://sergiutalnaci.github.io/tags/aws/</link>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C#</title>
+      <link>https://sergiutalnaci.github.io/tags/c#/</link>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/tags/c#/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotnet</title>
+      <link>https://sergiutalnaci.github.io/tags/dotnet/</link>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
+      
+      <guid>https://sergiutalnaci.github.io/tags/dotnet/</guid>
       <description></description>
     </item>
     

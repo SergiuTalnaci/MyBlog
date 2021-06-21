@@ -6,11 +6,11 @@
     <description>Recent content in autobiography on AWS Serverless on .NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/categories/autobiography/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 20:00:50 +0200</lastBuildDate><atom:link href="https://sergiutalnaci.github.io/categories/autobiography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>https://sergiutalnaci.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 05 May 2021 20:00:50 +0200</pubDate>
+      <pubDate>Sun, 16 May 2021 20:00:50 +0200</pubDate>
       
       <guid>https://sergiutalnaci.github.io/posts/my-first-post/</guid>
       <description>Whom is this blog for? AWS with dotnet using C# This blog is the about the life of a full stack software engineer experienced with dotnet and Angular, currently working with dotnet on AWS infrastructure at one of the largest toy companies in the world.
