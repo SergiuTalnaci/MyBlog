@@ -148,7 +148,7 @@
   <div class="meta">
     <time datetime="2021-06-19 20:00:50 &#43;0200 CEST">June 19, 2021</time>
     <p>Sergiu</p>
-    <p>4-Minute Read</p>
+    <p>7-Minute Read</p>
   </div>
 </header>
 
@@ -169,18 +169,18 @@
 <ul>
 <li><a href="https://obsproject.com/da/download">OBS</a></li>
 <li><a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/">Obs websocket server</a></li>
-<li><a href="https://github.com/SergiuTalnaci/PowerPointObsSceneSwitcher">Powerpoint OBS scene switcher</a></li>
+<li><a href="https://github.com/SergiuTalnaci/PowerPointObsSceneSwitcher">PowerPoint OBS scene switcher</a></li>
 </ul>
 <h3 id="obs">OBS</h3>
 <p>Install OBS from here: <a href="https://obsproject.com/da/download">Obs download link</a></p>
 <h3 id="obs-websocket-server">OBS websocket server</h3>
 <p>For websocket server, you can find the file by scrolling all the way down, Install <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/">OBS websocket server</a> plugin from here: <a href="https://github.com/Palakis/obs-websocket/releases/tag/4.9.1">Obs websocket server github releases</a>. 
 <img src="/obs-online-presentations/obs-websocket-github.jpg" /></p>
-<p>Download the installer that matches your OS, or unzip the contents of the ZIP file into the folder where you installed OBS (C:\OBSINSTALLPATH\obsstudio). I recommend closing OBS before installing or unzipping the websocket server. Once installed open OBS again, in the top menu click on Tools -&gt; WebSockets Server Settings. It should look like this:</p>
+<p>Download the installer that matches your OS, or unzip the contents of the ZIP file into the folder where you installed OBS (C:\OBSINSTALLPATH\obsstudio). I recommend closing OBS before installing or unzipping the websocket server. Once installed, open OBS again, in the top menu click on Tools -&gt; WebSockets Server Settings. It should look like this:</p>
 <p><img src="/obs-online-presentations/obs-websocket-server-settings-menu.jpg" /> 
-Enable authentication and set a password you can remember and type later. We will need to input the password we set here in the Powerpoint OBS scene Switcher.</p>
-<p>We need the webserver extension to change the OBS scenes when we change our powerpoint slides.</p>
-<h3 id="powerpoint-obs-scene-switcher">Powerpoint OBS Scene Switcher</h3>
+Enable authentication and set a password you can remember and type later. We will need to input the password we set here in the PowerPoint OBS scene Switcher.</p>
+<p>We need the webserver extension to change the OBS scenes when we change our PowerPoint slides.</p>
+<h3 id="powerpoint-obs-scene-switcher">PowerPoint OBS Scene Switcher</h3>
 <p>Clone or download the scene switcher code. I have included a built version of the program you can just run in the Compiled Executable folder. Otherwise you will need visual studio 2019 or newer to build and run the code.</p>
 <h2 id="setup">Setup</h2>
 <h3 id="video-resolution">Video resolution</h3>
@@ -202,31 +202,56 @@ Enable authentication and set a password you can remember and type later. We wil
 <p><img src="/obs-online-presentations/obs-display-capture-chroma-key-settings-popup.jpg" /></p>
 <p>Now that we have our Scenes settings in order, make sure that both the scene and the Display Capture are full screen on the preview canvas. In my case I see the desktop of the display capture surrounded by a red square which is the base &ldquo;Scene&rdquo; that contains the camera and microphone input.</p>
 <p>With these 2 layers, in order OBS will now make the color green of our display capture &ldquo;transparent&rdquo; so our 2nd layer can be seen through the green.</p>
-<h3 id="powerpoint-slides">Powerpoint Slides</h3>
-<p>In our PowerPoint slides we simply put green wherever we want to appear, for example this is my first slide. Note that I put a slide from the left side animation on my name card to make it look more modern and integrated.</p>
-<p><img src="/obs-online-presentations/obs-powerpoint-green-screen-powerpoint.jpg" /></p>
-<p>Another important sidenote, in PowerPoint <b>remember to add Slide 0 in the presenter comments</b>. The image below is how it looks like on OBS in my &ldquo;Slide 0&rdquo; scene. As you can see the non green part of the screen is on top of my camera input, or in other words, everything that is screen becomes transparent on the &ldquo;Display Capture&rdquo; source so we can see the scene &ldquo;Scene&rdquo; which is the Camera and Sound Capture.</p>
+<h3 id="powerpoint-slides">PowerPoint Slides</h3>
+<p>In our PowerPoint slides we simply put green wherever we want to appear, for example the images below are my first two slides. There is a slide from the left side animation on my name card to make it look more modern and integrated.</p>
+<p><img src="/obs-online-presentations/obs-powerpoint-presenter-notes.jpg" /></p>
+<p>Another important sidenote, in PowerPoint <b>remember to add OBS: &ldquo;Your_scene_name&rdquo;</b> as the first text in the presenter notes. In the example above we have a Scene in OBS called Slide 0, so we write &ldquo;OBS: Slide 0&rdquo; in the presenter notes for slide 1. Sorry about the 0 instead of 1, computer people always start from 0.</p>
+<p>If you don&rsquo;t know about presenter notes, follow the image above.</p>
+<ol>
+<li>Click on the show presenter notes button in the bottom right.</li>
+<li>Write OBS: <i>Scene_name</i> on the first line.</li>
+</ol>
+<p><img src="/obs-online-presentations/obs-powerpoint-presenter-notes-slide-2.jpg" /></p>
+<p>The image above is the second slide where we write OBS: Slide 1, to match the second scene we have in OBS. The easiest way is to make an OBS scene from every slide, but you can also reuse them if the green screen location does not change.</p>
+<br/>
+<br/>
+<h3 id="end-result">END RESULT</h3>
+<p>The image below is how it looks like on OBS in my &ldquo;Slide 0&rdquo; scene. As you can see the non green part of the screen is on top of my camera input, or in other words, everything that is screen becomes transparent on the &ldquo;Display Capture&rdquo; source so we can see the scene &ldquo;Scene&rdquo; which is the Camera and Sound Capture.</p>
 <p><img src="/obs-online-presentations/obs-with-powerpoint-before-starting-fullscreen-preview.jpg" /></p>
 <h4 id="center-yourself-to-the-side-of-the-screen">Center yourself to the side of the screen</h4>
-<p>In this slide I want to place myself to the left side of the screen. To do this I made the powerpoint slide with a large green block on the left side. I&rsquo;ve also added &ldquo;Slide 2&rdquo; in the presenter comments of this Power point slide. Now we need to setup Slide 2 scene in OBS.</p>
+<p>In this slide I want to place myself to the left side of the screen. To do this I made the PowerPoint slide with a large green block on the left side. I&rsquo;ve also added &ldquo;Slide 2&rdquo; in the presenter comments of this PowerPoint slide. Now we need to setup &ldquo;Slide 2&rdquo; scene in OBS.</p>
 <p><img src="/obs-online-presentations/obs-powepoint-green-screen-in-slide.jpg" /></p>
-<p>As usual we use the Display Capture Source and Scene source, but note that I dragged the scene with my mouse to the left. You can see the &ldquo;Scene source&rdquo; is moved to the left, so much left that the left part of it is out of the canvas and won&rsquo;t be seen or rendered. However this allows us to be in the center of “Scene” to while being on the left side of the Powerpoint screen.</p>
 <p><img src="/obs-online-presentations/obs-powepoint-camera-in-slide.jpg" /></p>
-<h2 id="obs-powerpoint-scene-switcher">OBS Powerpoint scene switcher</h2>
+<p>As usual we use the Display Capture Source and Scene source, if you look in the image above, I dragged the input scene nammed &ldquo;Scene&rdquo; with my mouse to the left. You can see the &ldquo;Scene source&rdquo; is moved to the left, so much left that the left part of it is out of the canvas and won&rsquo;t be seen or rendered. However this allows us to be in the center of “Scene” while being on the left side of the Powerpoint screen.</p>
+<h2 id="obs-powerpoint-scene-switcher">OBS PowerPoint scene switcher</h2>
+<p>Once we have our PowerPoint slides prepared with the green screen and the correct text in the presenter notes we have to run the OBS PowerPoint scene switcher software.</p>
+<p>If you haven&rsquo;t already downloaded it, you can get it here: <a href="https://github.com/SergiuTalnaci/PowerPointObsSceneSwitcher">PowerPointObsSceneSwitcher</a>.</p>
+<p>If you want to modify and build the code yourself, you need Visual Studio 2019, otherwise just run the built code from the Compiled Executable folder.</p>
+<p>Once you run it will ask you for a password. This is the password we previously set on the OBS PowerPoint scene switcher. If the password is correct, you can see it writes the OBS Scenes.</p>
+<p>Try to start presenting in PowerPoint and switch between the slides. If the program works you can see yourself in OBS and in the switcher you can see Moving to Slide Number X Switching to OBS Scene named &ldquo;SceneName&rdquo;.</p>
 <p><img src="/obs-online-presentations/obs-powepoint-switcher-program-example.jpg" /></p>
-<h2 id="present-in-microsoft-teams">Present in Microsoft Teams</h2>
+<p>Big thank you to Jeff Fritz, Scott Hanselman and the community for this software.</p>
+<h1 id="present-in-microsoft-teams">Present in Microsoft Teams</h1>
+<p>There are two ways to present our slides in Microsoft teams</p>
 <ul>
 <li>Virtual camera</li>
-<li>Share screen preview
-Now for the fun part, presentations</li>
+<li>Share screen preview</li>
 </ul>
-<h3 id="virtual-camera">Virtual camera</h3>
-<p><img src="/obs-online-presentations/microsoft-teams-obs-virtual-camera.jpg" /> 
-<img src="/obs-online-presentations/obs-start-virtual-camera-control.jpg" /></p>
-<h3 id="screen-share">Screen share</h3>
+<h2 id="virtual-camera">Virtual camera</h2>
+<p>In virtual camera mode, OBS preview becomes the camera stream. This is the easiest way to stream, but it might not succeed at grabbing the attention of your entire audience. In Microsoft Teams, before joining the meeting, make sure you select the OBS Virtual Camera like in the image below.</p>
+<p><img src="/obs-online-presentations/microsoft-teams-obs-virtual-camera.jpg" /></p>
+<p>In OBS make sure you click on the Start Virtual Camera button in the bottom right of OBS. Now you should be able to see your OBS preview in Microsoft Teams.</p>
+<p><img src="/obs-online-presentations/obs-start-virtual-camera-control.jpg" /></p>
+<p>Join the meeting and start your presentation, make sure to remember to right click your portrait and Spotlight yourself.</p>
+<h2 id="screen-share">Screen share</h2>
+<p>This mode is great if you have 2 screens, it might be a tad more challenging to set up with only 1 screen. 
+The image below displays how it should look if everything is set up correctly.</p>
 <p><img src="/obs-online-presentations/obs-powerpoint-green-screen-sample.jpg" /></p>
+<p>Start presenter mode in PowerPoint, switch to OBS. In OBS right click on the preview window, select Fullscreen Projector (Preview) -&gt; Select the monitor you wish to fullscreen to. I use a 1920x1080 monitor since it&rsquo;s one of the most commonly encountered monitor resolution. This will create a fullscreen preview on the selected screen. You can Alt-Tab out of it and even minimize it.</p>
 <p><img src="/obs-online-presentations/obs-with-powerpoint-fullscreen-projector-menu.jpg" /></p>
+<p>In Microsoft teams, click on the Share content button, click on &ldquo;Window&rdquo;, and find the Full Screen Projector (Preview). Now you should be good to go, make sure to check with a friend that everything works before presenting to a larger audience.</p>
 <p><img src="/obs-online-presentations/microsoft-teams-share-fullscreen-window.jpg" /></p>
+<p>This method has a minor downside, we have to stop the camera in obs or just exit obs after our presentation ends. We have to do this to free up the camera so Microsoft Teams can use it again.</p>
 
       </div>
       <footer>
