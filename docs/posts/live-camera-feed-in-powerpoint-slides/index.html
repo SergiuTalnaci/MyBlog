@@ -174,11 +174,11 @@
 <h3 id="obs">OBS</h3>
 <p>Install OBS from here: <a href="https://obsproject.com/da/download">Obs download link</a></p>
 <h3 id="obs-websocket-server">OBS websocket server</h3>
-<p>For websocket server, you can find the file by scrolling all the way down, Install <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/">OBS websocket server</a> plugin from here: <a href="https://github.com/Palakis/obs-websocket/releases/tag/4.9.1">Obs websocket server github releases</a>. 
-<img src="/obs-online-presentations/obs-websocket-github.jpg" /></p>
+<p>For websocket server, you can find the file by scrolling all the way down, Install <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/">OBS websocket server</a> plugin from here: <a href="https://github.com/Palakis/obs-websocket/releases/tag/4.9.1">Obs websocket server github releases</a>.</p>
+<p><img src="/obs-online-presentations/obs-websocket-github.jpg" /></p>
 <p>Download the installer that matches your OS, or unzip the contents of the ZIP file into the folder where you installed OBS (C:\OBSINSTALLPATH\obsstudio). I recommend closing OBS before installing or unzipping the websocket server. Once installed, open OBS again, in the top menu click on Tools -&gt; WebSockets Server Settings. It should look like this:</p>
-<p><img src="/obs-online-presentations/obs-websocket-server-settings-menu.jpg" /> 
-Enable authentication and set a password you can remember and type later. We will need to input the password we set here in the PowerPoint OBS scene Switcher.</p>
+<p><img src="/obs-online-presentations/obs-websocket-server-settings-menu.jpg" /></p>
+<p>Enable authentication and set a password you can remember and type later. We will need to input the password we set here in the PowerPoint OBS scene Switcher.</p>
 <p>We need the webserver extension to change the OBS scenes when we change our PowerPoint slides.</p>
 <h3 id="powerpoint-obs-scene-switcher">PowerPoint OBS Scene Switcher</h3>
 <p>Clone or download the scene switcher code. I have included a built version of the program you can just run in the Compiled Executable folder. Otherwise you will need visual studio 2019 or newer to build and run the code.</p>
@@ -188,10 +188,10 @@ Enable authentication and set a password you can remember and type later. We wil
 <p><img src="/obs-online-presentations/obs-video-settings.jpg" /></p>
 <p>I picked 1920x1080 as a resolution because it is the largest audience who has this screen format. It also scales well to 720p or 1440p screens. For all the other high end devices, they probably run on a higher resolution that can comfortably view the stream at 1080p.</p>
 <h3 id="obs-scenes">Obs Scenes</h3>
-<p>After you install OBS, by default it will have 3 scenes, I chose the first &ldquo;Scene&rdquo; as the &ldquo;base scene&rdquo; where I&rsquo;ve added my microphone and camera as sources. We will use this scene with all of our slides, as it is simply the camera and microphone.<br>
-<img src="/obs-online-presentations/obs-scenes-menu.jpg" /></p>
-<p>As you can see in the image below, I&rsquo;ve added Scene and Display Capture, as input sources. We will need to do this for every slide where our green screen changes. Let&rsquo;s being by creating a Scene and name it Slide 0. Under sources click the &ldquo;+&rdquo; button and select Scene as a source. 
-<img src="/obs-online-presentations/obs-base-scene-inputs.jpg" /></p>
+<p>After you install OBS, by default it will have 3 scenes, I chose the first &ldquo;Scene&rdquo; as the &ldquo;base scene&rdquo; where I&rsquo;ve added my microphone and camera as sources. We will use this scene with all of our slides, as it is simply the camera and microphone.</p>
+<p><img src="/obs-online-presentations/obs-scenes-menu.jpg" /></p>
+<p>As you can see in the image below, I&rsquo;ve added Scene and Display Capture, as input sources. We will need to do this for every slide where our green screen changes. Let&rsquo;s being by creating a Scene and name it Slide 0. Under sources click the &ldquo;+&rdquo; button and select Scene as a source.</p>
+<p><img src="/obs-online-presentations/obs-base-scene-inputs.jpg" /></p>
 <p>Now we need to set a chroma filter for our display capture, this will allow the layer beneath the top layer, in this case our &ldquo;Scene&rdquo; layer will be shown in places where we have the right color green.</p>
 <ol>
 <li>Right click the &ldquo;Display Capture&rdquo; source.</li>

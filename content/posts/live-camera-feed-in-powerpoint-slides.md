@@ -23,11 +23,13 @@ Install OBS from here: [Obs download link](https://obsproject.com/da/download)
 
 ### OBS websocket server
 For websocket server, you can find the file by scrolling all the way down, Install [OBS websocket server](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) plugin from here: [Obs websocket server github releases](https://github.com/Palakis/obs-websocket/releases/tag/4.9.1). 
+
 <img src="/obs-online-presentations/obs-websocket-github.jpg" />
 
 Download the installer that matches your OS, or unzip the contents of the ZIP file into the folder where you installed OBS (C:\OBSINSTALLPATH\obsstudio). I recommend closing OBS before installing or unzipping the websocket server. Once installed, open OBS again, in the top menu click on Tools -> WebSockets Server Settings. It should look like this: 
 
 <img src="/obs-online-presentations/obs-websocket-server-settings-menu.jpg" /> 
+
 Enable authentication and set a password you can remember and type later. We will need to input the password we set here in the PowerPoint OBS scene Switcher. 
 
 
@@ -49,9 +51,11 @@ I picked 1920x1080 as a resolution because it is the largest audience who has th
 
 ### Obs Scenes
 After you install OBS, by default it will have 3 scenes, I chose the first "Scene" as the "base scene" where I've added my microphone and camera as sources. We will use this scene with all of our slides, as it is simply the camera and microphone.  
+
 <img src="/obs-online-presentations/obs-scenes-menu.jpg" /> 
 
 As you can see in the image below, I've added Scene and Display Capture, as input sources. We will need to do this for every slide where our green screen changes. Let's being by creating a Scene and name it Slide 0. Under sources click the "+" button and select Scene as a source. 
+
 <img src="/obs-online-presentations/obs-base-scene-inputs.jpg" /> 
 
 Now we need to set a chroma filter for our display capture, this will allow the layer beneath the top layer, in this case our "Scene" layer will be shown in places where we have the right color green.
