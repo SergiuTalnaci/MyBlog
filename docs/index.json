@@ -1,4 +1,10 @@
 [{
+    "title": "Multiple SetResult on TaskCompletionSource",
+    "date": "",
+    "description": "An attempt was made to transition to a task to a final state when it had already completed error does not get picked up by visual studio test runner",
+    "body": "Background Last week I was working on some end to end tests where we use an observable. This observable is using a TaskCompletionSource that we use to \u0026ldquo;close the subscription\u0026rdquo;. When we got the data we expected from the observable we would call SetResult on our TaskCompletionSource.\nTo prevent the observable from running forever, we used a CancelationTokenSource with a timeout. When the timeout occurs we made it call SetResult on our TaskCompletionSource.\nProblem This event occurs when the timer runs out, but our task was already completed. This means our code was trying to SetResult on an already completed task.\nWe are using Xunit and with Visual Studio or Rider. Neither of them would catches the error, the tests would somehow just stop running with no extra information, it was extremely strange.\nDiscovery Running dotnet test from the terminal actually failed the test with an \u0026ldquo;System.InvalidOperationException: An attempt was made to transition a task to a final state when it had already completed.\u0026rdquo;\nThe fix Simply replacing SetResult with TrySetResult solves the issue.\nI\u0026rsquo;ve included a sample Gist of the problem and the fix.\n",
+    "ref": "/posts/complete-task-twice/"
+  },{
     "title": "Present live camera feed in PowerPoint slides over Teams or Zoom",
     "date": "",
     "description": "Create amazing presentations where you can put yourself inside the presentation great for remote first jobs",
