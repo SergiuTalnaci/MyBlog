@@ -4,7 +4,7 @@ description: "An attempt was made to transition to a task to a final state when 
 date: 2021-06-27T20:00:50+02:00
 author: "Sergiu"
 language: "English"
-tags: ["C#", "Tasks", "Task", "Async", "Threading", ".NET", "dotnet", "software", "software engineering"]
+tags: ["Tasks", "Task", "Async", "Threading", ".NET", "dotnet", "software", "software engineering"]
 categories: ["Programming"]
 --- 
 
