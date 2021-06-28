@@ -4,7 +4,7 @@ description: "A brief intro about myself"
 date: 2021-05-16T20:00:50+02:00
 author: "Sergiu"
 language: "English"
-tags: ["AWS", "C#", ".NET", "dotnet", "software", "software engineering"]
+tags: ["AWS", ".NET", "dotnet", "software", "software engineering"]
 categories: ["autobiography"]
 images: [{'src':'/Denmark-in-March.jpg', 'alt': 'Denmark in March', 'stretch': 'horizontal'}]
 ---
